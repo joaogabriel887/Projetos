@@ -4,11 +4,14 @@
     <title>Teste JavaScript</title>
     <meta charset="UTF-8" />
     <script>
-      function acendeLampada() {
+      function acendelampada() {
         document.getElementById("luz").src = "_imagens/lampada-acesa.jpg";
       }
       function apagalampada() {
         document.getElementById("luz").src = "_imagens/lampada-apagada.jpg";
+      }
+      function quebralampada() {
+        document.getElementById("luz").src = "_imagens/lampada-quebrada.jpg";
       }
     </script>
   </head>
@@ -17,8 +20,9 @@
     <img
       src="_imagens/lampada-apagada.jpg"
       id="luz"
-      onmousemove="acendeLampada()"
-      onmouseout="apagaLampada"
+      onmousemove="acendelampada()"
+      onmouseout="apagalampada()"
+      onclick="quebralampada()"
     />
   </body>
 </html>
