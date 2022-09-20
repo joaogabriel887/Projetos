@@ -7,13 +7,13 @@
       var quebrada = false;
       function mudalampada(tipo) {
         if (tipo == 1) {
-          arquivo = "imagens/lampada-acesa.jpg";
+          arquivo = "_imagens/lampada-acesa.jpg";
         }
         if (tipo == 2) {
-          arquivo = "imagens/lampada-apaga.jpg";
+          arquivo = "_imagens/lampada-apagada.jpg";
         }
         if (tipo == 3) {
-          arquivo = "imagens/lampada-quebrada.jpg";
+          arquivo = "_imagens/lampada-quebrada.jpg";
         }
         if (!quebrada) {
           document.getElementById("luz").src = arquivo;
@@ -25,7 +25,7 @@
     </script>
   </head>
   <body>
-    <h1>Acenda a lâmpada</h1>
+    <h1>muda a lampada</h1>
     <img
       src="_imagens/lampada-apagada.jpg"
       id="luz"
