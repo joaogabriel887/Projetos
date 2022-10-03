@@ -14,4 +14,25 @@ p {
     font-size: 60px;
 }
 
+.box-orange{
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #ff9966;
+}
+
+.box-blue{
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #3a3ded;
+}
+
+.box-yellow{
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: gold;
+}
+
 
